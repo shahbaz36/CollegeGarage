@@ -1,2 +1,2 @@
-# PeripheralPawn
-"Unlock Value in Your Old Gear: Peripheral Pawn - Where Your Tech Finds a New Home!"
+# CollegeGarage
+"Unlock Value in Your Old Gear: College Garage - Where Your Tech Finds a New Home!"
