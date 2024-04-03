@@ -15,6 +15,5 @@ router.use(authController.protect); //Protect all routes after this middleware
 
 userRouter.route('/updatePassword').patch(authController.updatePassword) //Mounted route
 //Read , Update and Delete operations for logged in user
-userRouter.route('/me').get(userController.getMe, userController.getUser) //Mounted route
 
 module.exports = userRouter ;
