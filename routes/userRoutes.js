@@ -4,16 +4,26 @@ const userController = require('../controllers/userController')
 
 const userRouter = express.Router();  //Router call
 
-userRouter.route('/signup').post(authController.signup) //Mounted route 
-userRouter.route('/signin').post(authController.signin) //Mounted route 
-userRouter.route('/logout').get(authController.logout) //Mounted route
+userRouter.route('/signup').post(authController.signup) //checked
+userRouter.route('/signin').post(authController.signin) //checked 
+userRouter.route('/logout').get(authController.logout) //checked
 
-router.post('/forgotPassword', authController.forgotPassword);
-router.patch('/resetPassword/:token', authController.resetPassword);
+userRouter.post('/forgotPassword', authController.forgotPassword);
+userRouter.patch('/resetPassword/:token', authController.resetPassword);
 
-router.use(authController.protect); //Protect all routes after this middleware
+userRouter.use(authController.protect); //Protect all routes after this middleware
 
-userRouter.route('/updatePassword').patch(authController.updatePassword) //Mounted route
+userRouter.route('/updatePassword').patch(authController.updatePassword) //checked
+
 //Read , Update and Delete operations for logged in user
+userRouter.route('/me').get(userController.getMe, userController.getUser) //checked
+userRouter.patch(
+    '/updateMe',
+    userController.uploadUserPhoto,
+    userController.resizeUserPhoto,
+    userController.updateMe
+);
 
-module.exports = userRouter ;
+userRouter.delete('/deleteMe', userController.deleteMe);
+
+module.exports = userRouter;

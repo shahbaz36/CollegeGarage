@@ -5,8 +5,8 @@ const cookieParser = require('cookie-parser');
 //User defined modules
 const AppError = require('./utils/AppError');
 const itemRouter = require('./routes/itemRoutes');
-const reviewRouter = require('./routes/reviewRoutes');
-const orderRouter = require('./routes/orderRoutes');
+// const reviewRouter = require('./routes/reviewRoutes');
+// const orderRouter = require('./routes/orderRoutes');
 const userRouter = require('./routes/userRoutes');
 const globalErrorHandler = require('./controllers/errorController');
 
@@ -18,8 +18,8 @@ app.use(cookieParser());
 //API Routes
 app.use('/api/v1/users', userRouter);  //USer Routes
 app.use('/api/v1/items', itemRouter);  //Item Routes
-app.use('/api/v1/reviews', reviewRouter);  //Review Routes
-app.use('/api/v1/order', orderRouter);  //Order Routes
+// app.use('/api/v1/reviews', reviewRouter);  //Review Routes
+// app.use('/api/v1/order', orderRouter);  //Order Routes
 
 // Check if the server is running
 app.get('/direct-approach', (req, res) => { res.send("hello from express") });
