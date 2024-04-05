@@ -52,7 +52,6 @@ exports.signin = catchAsync(async (req, res, next) => {
         return next(new AppError("Please provide email and password", 400));
 
     const user = await User.findOne({ email }).select("+password");
-    console.log(user);
 
     if (!user || !(await user.checkPassword(password, user.password)))
         return next(new AppError("Incorrect Email or Password", 401));
@@ -224,7 +223,7 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
 exports.updatePassword = catchAsync(async (req, res, next) => {
     // 1) Get user from collection
     const user = await User.findById(req.user.id).select('+password');
-    console.log(user);
+
     // 2) Check if POSTed current password is correct
     if (!(await user.checkPassword(req.body.passwordCurrent, user.password))) {
         return next(new AppError('Your current password is wrong.', 401));

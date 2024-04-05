@@ -4,8 +4,9 @@ const dotenv = require('dotenv');
 const Item = require('./../../models/itemModel');
 const Review = require('./../../models/reviewModel');
 const User = require('./../../models/userModel');
+const itemController = require('./../../controllers/itemController');
+dotenv.config({ path: './config.env' });
 
-dotenv.config({ path: '../../config.env' });
 
 const DB = process.env.DATABASE.replace('<password>', process.env.PASSWORD);
 mongoose.connect(DB)
@@ -23,7 +24,7 @@ const users = JSON.parse(fs.readFileSync(`${__dirname}/users-sample.json`, 'utf-
 const importData = async () => {
     try {
         await Item.create(items);
-        await User.create(users, {validateBeforeSave: false});
+        // await User.create(users, {validateBeforeSave: false});
         // await Review.create(reviews);
         console.log('Data successfully loaded!');
     } catch (error) {

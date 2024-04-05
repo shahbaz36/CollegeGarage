@@ -16,4 +16,13 @@ itemRouter
     .route('/create')
     .post(authController.protect, itemController.createItem);
 
+itemRouter
+    .route('/:id')
+    .get(itemController.getItem)
+    .delete(
+        authController.protect,
+        itemController.deleteItem
+    )
+   
+
 module.exports = itemRouter;

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const slugify = require('slugify');
-// const User = require('./userModel');
-// const validator = require('validator');
+const User = require('./userModel');
+const validator = require('validator');
 
 const itemSchema = new mongoose.Schema(
     {
@@ -11,7 +11,7 @@ const itemSchema = new mongoose.Schema(
             unique: true,
             trim: true,
             maxlength: [40, 'An item name must have less or equal then 40 characters'],
-            minlength: [10, 'An item name must have more or equal then 10 characters']
+            minlength: [5, 'An item name must have more or equal then 10 characters']
             // validate: [validator.isAlpha, 'item name must only contain characters']
         },
         slug: String,
@@ -54,6 +54,10 @@ const itemSchema = new mongoose.Schema(
             required: [true, 'An item must have a cover image']
         },
         images: [String],
+        createdBy: {
+            type: String
+            // required: [true, 'Item must belong to a user']
+        },
         createdAt: {
             type: Date,
             default: Date.now(),
@@ -74,12 +78,7 @@ const itemSchema = new mongoose.Schema(
 itemSchema.index({ price: 1, ratingsAverage: -1 });
 itemSchema.index({ slug: 1 });
 
-// Virtual populate
-itemSchema.virtual('reviews', {
-    ref: 'Review',
-    foreignField: 'item',
-    localField: '_id'
-});
+// VIRTUAL POPULATE
 
 // DOCUMENT MIDDLEWARE: runs before .save() and .create()
 itemSchema.pre('save', function (next) {

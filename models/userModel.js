@@ -18,8 +18,8 @@ const userSchema = new mongoose.Schema({
     photo: String,
     role: {
         type: String,
-        enum: ["student", "faculty", "admin"],
-        default: "student",
+        enum: ["user", "admin"],
+        default: "user"
     },
     password: {
         type: String,
@@ -84,8 +84,6 @@ userSchema.methods.createPasswordResetToken = function () {
         .createHash('sha256')
         .update(resetToken)
         .digest('hex');
-
-    console.log({ resetToken }, this.passwordResetToken);
 
     this.passwordResetExpires = Date.now() + 10 * 60 * 1000;
 
