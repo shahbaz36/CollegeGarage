@@ -1,0 +1,93 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: -420px;
+    width: 420px;
+    height: 100%;
+    background-color: #f1f1f1;
+    transition: right 0.3s ease;
+    z-index: 999;
+    overflow-y: auto;
+}
+
+#sidebar.open {
+    right: 0;
+}
+
+.cart-container {
+    padding: 20px;
+}
+
+#closeIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #e20303;
+}
+
+#checkoutButton {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#checkoutButton:hover {
+    background-color: #a5afa5;
+    color: black;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-image {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 50%; /* Make the image rounded */
+    margin-right: 10px;
+}
+
+.product-details {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: smaller;
+    color: #666;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.counter button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

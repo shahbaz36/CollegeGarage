@@ -1,0 +1,62 @@
+
+/* About Us section */
+
+.about-us {
+    padding: 32px;
+    background-color: #efedf6;
+
+}
+
+.about-us-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.about-us-title h2 {
+    color: #777585;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.about-us-content {
+    padding: 24px 64px;
+}
+
+.about-us-content p {
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 3% 6%;
+    margin: 0;
+}
+.center-text {
+    text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+
+
+/* Mission Vision Section */
+.card {
+    background: #efedf6;
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 1px solid #efedf6;
+}
+
+.card p {
+    padding-bottom: 15px;
+    
+    font-size: larger;
+}
+
+.card h2 {
+    color: #777585;
+    font-weight: 600;
+}

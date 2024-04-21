@@ -21,15 +21,16 @@ module.exports = class Email {
                 }
             });
         }
+        // Mailtrap
         return nodemailer.createTransport({
-            host: process.env.EMAIL_HOST,
-            port: process.env.EMAIL_PORT,
+            host: "sandbox.smtp.mailtrap.io",
+            port: 2525,
             auth: {
-                user: process.env.EMAIL_USERNAME,
-                pass: process.env.EMAIL_PASSWORD
+                user: "f81b43af57336a",
+                pass: "0da0ef6d5f417d"
             }
-
-        })
+        }
+        );
     }
 
     // Send the actual email
@@ -46,7 +47,7 @@ module.exports = class Email {
             to: this.to,
             subject,
             html,
-            text: htmlToText.fromString(html)
+            text: htmlToText.convert(html)
         }
         // 3) Create a transport and send email
 
@@ -54,7 +55,7 @@ module.exports = class Email {
     }
 
     async sendWelcome() {
-        await this.send('welcome', 'Welcome to the your college')
+        await this.send('welcome', 'Welcome to the your college Garage!');
     }
 }
 

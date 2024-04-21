@@ -2,6 +2,8 @@ const mongoose = require('mongoose');
 const slugify = require('slugify');
 const User = require('./userModel');
 const validator = require('validator');
+const Review = require('./reviewModel');
+const catchAsync = require('../utils/catchAsync');
 
 const itemSchema = new mongoose.Schema(
     {
@@ -55,8 +57,9 @@ const itemSchema = new mongoose.Schema(
         },
         images: [String],
         createdBy: {
-            type: String
-            // required: [true, 'Item must belong to a user']
+            type: mongoose.Schema.ObjectId,
+            ref: 'User',
+            required: [true, 'Item must belong to a user']
         },
         createdAt: {
             type: Date,
@@ -78,7 +81,12 @@ const itemSchema = new mongoose.Schema(
 itemSchema.index({ price: 1, ratingsAverage: -1 });
 itemSchema.index({ slug: 1 });
 
-// VIRTUAL POPULATE
+// VIRTUAL POPULATE : To embed reviews in item
+itemSchema.virtual('reviews', {
+    ref: 'Review',
+    foreignField: 'item',
+    localField: '_id',
+});
 
 // DOCUMENT MIDDLEWARE: runs before .save() and .create()
 itemSchema.pre('save', function (next) {
@@ -86,6 +94,14 @@ itemSchema.pre('save', function (next) {
     next();
 });
 
+// itemSchema.statics.deleteRatings = async function () {
+//     await this.updateMany({}, { $unset: { ratingsAverage: 1, ratingsQuantity: 1 } });
+// };
+
+
 const Item = mongoose.model('Item', itemSchema);
+
+//To delete hard coded ratings
+// Item.deleteRatings();
 
 module.exports = Item;

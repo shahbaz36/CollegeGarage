@@ -1,0 +1,54 @@
+extends base
+
+block content 
+    .Top-head
+        .row
+            .col
+                h1 Back to College!
+                button.Top-button.btn.btn-dark.btn-lg.Top-button(type='button')
+                    a.log-button(href='#') SHOP NOW
+
+    .container-fluid
+        each item in items
+            .card.mb-3(style='width: 18rem;')
+                img.card-img-top(src='images/bg.jpg', alt='...')
+                .card-body
+                    p.card-text
+                        small #{item.name}
+                        br
+                        | Poster v1
+                        br
+                        strong $#{item.price}
+                    a.btn.btn-primary.card-btns(href='#') Add to Cart
+    section.review
+        .container-fluid
+            h2 What our customers say
+            .reviews
+                .card.mb-3(style='width: 18rem;')
+                    img.card-img-top.rounded-small(src='images/bg.jpg', alt='Customer 1')
+                    .card-body
+                        p.card-text
+                            strong Customer 1
+                            br
+                            | "Great electronics gadget, exactly what I needed for my tech setup."
+                            br
+                .card.mb-3(style='width: 18rem;')
+                    img.card-img-top.rounded-small(src='images/bg.jpg', alt='Customer 2')
+                    .card-body
+                        p.card-text
+                            strong Customer 2
+                            br
+                            | "Excellent quality and fast delivery. Love this electronics gadget!"
+                            br
+                .card.mb-3(style='width: 18rem;')
+                    img.card-img-top.rounded-small(src='images/bg.jpg', alt='Customer 3')
+                    .card-body
+                        p.card-text
+                            strong Customer 3
+                            br
+                            | "This electronics gadget exceeded my expectations. Highly recommend."
+                            br
+    section.sell#Top-home
+        .container-fluid
+            a.sell-btn(href='#')
+                .btn.btn-outline-primary(type='button') Sell your item now!

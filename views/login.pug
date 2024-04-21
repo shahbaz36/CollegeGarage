@@ -1,0 +1,42 @@
+extends base 
+
+block content 
+    .flip-card-3D-wrapper
+        #flip-card
+            .flip-card-front
+                form( id="form", class="login-form")
+                    .image
+                        img(src="images/log.jpg", alt="")
+                    .formError
+                    select(name="type", id="type-signin")
+                        option(value="null") I am a
+                        option(value="student") Undergraduate Student
+                        option(value="alumni") Graduate Student
+                        option(value="faculty") Working Professional
+                    input(type="email", name="email", placeholder="enter your email", id ="login-email")
+                    input(type="password", name="password", placeholder="enter your password", id = "login-password")
+                    button(type="submit", name="submit", value="Login now", class="form-btn") Login now
+                    p
+                    | don't have an account? 
+                    a#flip-card-btn-turn-to-back(href="#") Register Now
+
+            .flip-card-back
+                form( method="POST", id="register")
+                    .image
+                        img(src="images/log.jpg", alt="")
+                    .formError
+                    select(name="type", id="type-signup")
+                        option(value="null") I am a
+                        option(value="student") Undergraduate Student
+                        option(value="alumni") Graduate Student
+                        option(value="faculty") Working Professional
+                    input(type="text", id="name", name="name", placeholder="Name")
+                    input(type="text", id="userId", name="userId", placeholder="Student Id/ Employee ")
+                    input(type="email", id="email", name="email", placeholder="Email")
+                    input(placeholder="Year of Joining", id="yoj", name="yoj", type="text", onfocus="(this.type='date')")
+                    input(type="password", name="password", id="password", placeholder="Enter your password")
+                    input(type="password", name="re-password", id="re-password", placeholder="Re-enter your password")
+                    input(type="submit", name="submit", value="Register", class="form-btn")
+                    p
+                    | Already have an account? 
+                    a#flip-card-btn-turn-to-front(href="#") Login

@@ -1,143 +1,23 @@
 [
   {
-    "review": "Great wireless keyboard, works perfectly!",
-    "rating": 5,
-    "item": "615dd12b9d1bde4b8d376f3a",
-    "user": "615dd12b9d1bde4b8d376f3b",
-    "createdAt": "2024-04-01T08:00:00.000Z"
+    "review": "This refurbished wireless keyboard works great! It's very responsive and connects easily. Definitely worth the price.",
+    "rating": 4, 
+    "item":"660ff751f94096293c79e764"
   },
   {
-    "review": "The graphics tablet is awesome, very responsive!",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f3c",
-    "user": "615dd12b9d1bde4b8d376f3d",
-    "createdAt": "2024-04-02T08:00:00.000Z"
+    "review": "I've been using this keyboard for a few weeks now and I'm impressed with its quality. The keys feel nice to type on and the wireless connection is reliable.",
+    "rating": 5
   },
   {
-    "review": "Good quality noise-canceling headphones, comfortable to wear.",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f3e",
-    "user": "615dd12b9d1bde4b8d376f3f",
-    "createdAt": "2024-04-03T08:00:00.000Z"
+    "review": "The pre-owned graphics tablet I received was in excellent condition. It works flawlessly and has helped me improve my digital art skills.",
+    "rating": 5
   },
   {
-    "review": "The wireless mouse is okay, but the scrolling is a bit jittery.",
-    "rating": 3,
-    "item": "615dd12b9d1bde4b8d376f40",
-    "user": "615dd12b9d1bde4b8d376f41",
-    "createdAt": "2024-04-04T08:00:00.000Z"
+    "review": "I bought these used noise-canceling headphones for studying, and they're amazing. The noise cancellation feature really helps me focus, and the sound quality is top-notch.",
+    "rating": 4.5
   },
   {
-    "review": "Very useful Bluetooth speaker, good sound quality.",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f42",
-    "user": "615dd12b9d1bde4b8d376f43",
-    "createdAt": "2024-04-05T08:00:00.000Z"
-  },
-  {
-    "review": "The webcam works fine, but the image quality could be better.",
-    "rating": 3,
-    "item": "615dd12b9d1bde4b8d376f44",
-    "user": "615dd12b9d1bde4b8d376f45",
-    "createdAt": "2024-04-06T08:00:00.000Z"
-  },
-  {
-    "review": "Portable charger is a lifesaver during travel, charges quickly.",
-    "rating": 5,
-    "item": "615dd12b9d1bde4b8d376f46",
-    "user": "615dd12b9d1bde4b8d376f47",
-    "createdAt": "2024-04-07T08:00:00.000Z"
-  },
-  {
-    "review": "Laptop sleeve is good quality and fits my laptop perfectly.",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f48",
-    "user": "615dd12b9d1bde4b8d376f49",
-    "createdAt": "2024-04-08T08:00:00.000Z"
-  },
-  {
-    "review": "External monitor works flawlessly, great addition to my setup.",
-    "rating": 5,
-    "item": "615dd12b9d1bde4b8d376f4a",
-    "user": "615dd12b9d1bde4b8d376f4b",
-    "createdAt": "2024-04-09T08:00:00.000Z"
-  },
-  {
-    "review": "USB flash drive is convenient, but it feels a bit flimsy.",
-    "rating": 3,
-    "item": "615dd12b9d1bde4b8d376f4c",
-    "user": "615dd12b9d1bde4b8d376f4d",
-    "createdAt": "2024-04-10T08:00:00.000Z"
-  },
-
-  {
-    "review": "The laptop cooling pad does its job well, keeps my laptop cool during long sessions.",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f4e",
-    "user": "615dd12b9d1bde4b8d376f4f",
-    "createdAt": "2024-04-11T08:00:00.000Z"
-  },
-  {
-    "review": "The ergonomic office chair is comfortable and supportive, great for long study sessions.",
-    "rating": 5,
-    "item": "615dd12b9d1bde4b8d376f50",
-    "user": "615dd12b9d1bde4b8d376f51",
-    "createdAt": "2024-04-12T08:00:00.000Z"
-  },
-  {
-    "review": "Wi-Fi range extender significantly improved my internet coverage, no more dead zones!",
-    "rating": 5,
-    "item": "615dd12b9d1bde4b8d376f52",
-    "user": "615dd12b9d1bde4b8d376f53",
-    "createdAt": "2024-04-13T08:00:00.000Z"
-  },
-  {
-    "review": "Wireless printer is easy to set up and works reliably, great value for the price.",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f54",
-    "user": "615dd12b9d1bde4b8d376f55",
-    "createdAt": "2024-04-14T08:00:00.000Z"
-  },
-  {
-    "review": "Bluetooth keyboard is compact and responsive, perfect for my tablet.",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f56",
-    "user": "615dd12b9d1bde4b8d376f57",
-    "createdAt": "2024-04-15T08:00:00.000Z"
-  },
-  {
-    "review": "Tablet stand is sturdy and adjustable, works well with my iPad.",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f58",
-    "user": "615dd12b9d1bde4b8d376f59",
-    "createdAt": "2024-04-16T08:00:00.000Z"
-  },
-  {
-    "review": "USB microphone delivers clear sound, great for online meetings and recordings.",
-    "rating": 5,
-    "item": "615dd12b9d1bde4b8d376f5a",
-    "user": "615dd12b9d1bde4b8d376f5b",
-    "createdAt": "2024-04-17T08:00:00.000Z"
-  },
-  {
-    "review": "Laptop bag is durable and spacious, fits all my essentials.",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f5c",
-    "user": "615dd12b9d1bde4b8d376f5d",
-    "createdAt": "2024-04-18T08:00:00.000Z"
-  },
-  {
-    "review": "Computer speakers have good sound quality, great for listening to music.",
-    "rating": 4,
-    "item": "615dd12b9d1bde4b8d376f5e",
-    "user": "615dd12b9d1bde4b8d376f5f",
-    "createdAt": "2024-04-19T08:00:00.000Z"
-  },
-  {
-    "review": "Surge protector is essential for protecting my electronics, works well so far.",
-    "rating": 5,
-    "item": "615dd12b9d1bde4b8d376f60",
-    "user": "615dd12b9d1bde4b8d376f61",
-    "createdAt": "2024-04-20T08:00:00.000Z"
+    "review": "The quality of these headphones exceeded my expectations for a used product. They're comfortable to wear for long periods and the noise cancellation is effective.",
+    "rating": 4
   }
 ]

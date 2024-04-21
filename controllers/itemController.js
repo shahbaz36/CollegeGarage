@@ -16,9 +16,8 @@ exports.getAllItems = catchAsync(async (req, res, next) => {
 });
 
 exports.createItem = catchAsync(async (req, res, next) => {
+    req.body.createdBy = req.user._id;
     const newItem = await Item.create(req.body);
-    newItem.createdBy = req.user.id;
-    await newItem.save({validateBeforeSave: false});
 
     res.status(201).json({
         status: 'success',
@@ -29,11 +28,12 @@ exports.createItem = catchAsync(async (req, res, next) => {
 });
 
 exports.getItem = catchAsync(async (req, res, next) => {
-    const item = await Item.findById(req.params.id);
+    const item = await Item.findById(req.params.id).populate('reviews');
 
     if (!item) {
         return next(new AppError('No item found with that ID', 404));
     }
+    
     res.status(200).json({
         status: 'success',
         data: {
@@ -41,7 +41,6 @@ exports.getItem = catchAsync(async (req, res, next) => {
         }
     });
 });
-
 
 exports.deleteItem = catchAsync(async (req, res, next) => {
     // Check if the user is the creator of the item or an admin

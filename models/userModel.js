@@ -92,6 +92,6 @@ userSchema.methods.createPasswordResetToken = function () {
 
 
 //This model will be used to create documents inside controllers
-const User = mongoose.model("users", userSchema);
+const User = mongoose.model("User", userSchema);
 
 module.exports = User; 

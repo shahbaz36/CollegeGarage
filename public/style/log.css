@@ -1,0 +1,148 @@
+p{
+    text-align: center;
+  }
+  /* css for form  */
+    #flip-card form .image img{
+      margin-top: 5%;
+      height: 70px;
+    }
+    #flip-card .flip-card-back  {
+      padding: 1.25rem;
+      padding-bottom: 10%;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+      background: #fff;
+      text-align: center;
+      width: 100%;
+    }
+    #flip-card .flip-card-front  {
+      padding: 1.25rem;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+      background: #fff;
+      text-align: center;
+      width: 100%;
+    }
+     /* css for inputs  */
+    .flip-card-back form input{
+      width: 76%;
+      padding: 10px 15px;
+      font-size: 17px;
+      margin: 6px 0;
+      border: none;
+      border-bottom: 1px solid #222222;
+    }
+    .flip-card-back form select{
+      width: 76%;
+      margin-top: 0.5rem;
+      padding: 8px 15px;
+      border: none;
+      border-bottom: 1px solid #222222;
+    }
+    .flip-card-front form select{
+      width: 76%;
+      margin-top: 0.5rem;
+      padding: 8px 15px;
+      border: none;
+      border-bottom: 1px solid #222222;
+    }
+    .flip-card-front  form input {
+      width: 76%;
+      padding: 10px 15px;
+      font-size: 17px;
+      margin: 13px 0;
+      border: none;
+      border-bottom: 1px solid #222222;
+    }
+  #flip-card   .form-btn{
+      border-radius: 5px;
+      background-color: #222222;
+      border: none;
+      width: 76%;
+      padding: 10px 15px;
+      color: #fff;
+      text-align: center;
+    }
+    /* button  */
+    #flip-card  .form-btn:hover{
+      background-color: black;
+    }
+    /* flip part  */
+  html, body
+  {
+      background: #f3efe0;
+  }
+  .flip-card-3D-wrapper {
+    width: 28.5%;
+    height: 72vh;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+  .flip-card-3D-wrapper .flip-card-back,.flip-card-front{
+      width: 100%;
+    -o-perspective: 56.25rem;
+    -webkit-perspective: 56.25rem;
+    -ms-perspective: 56.25rem;
+    perspective: 56.25rem;
+    margin: 0 auto;
+  }
+  #flip-card {
+    text-align: center;
+    margin: 3.125rem auto;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  .do-flip {
+    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+  #flip-card-btn-turn-to-back, #flip-card-btn-turn-to-front {
+    cursor: pointer;
+    visibility: hidden;
+    font-weight: 600;
+    padding: 0;
+  
+  }
+  #flip-card .flip-card-front, #flip-card .flip-card-back{
+    position: absolute;
+    -o-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 2;
+  }
+  #flip-card .flip-card-back {
+      -o-transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+  }
+  #flip-card .flip-card-front p, #flip-card .flip-card-back p {
+    display: block;
+    font-size: 17px;
+  }
+  .formError{
+    font-size:0.75em;
+    margin-top:15px;
+  }
+  /* for mobile devices */
+  @media screen and (max-width:600px) {
+    .flip-card-3D-wrapper{
+      width: 75%;
+      height: 72vh;
+    }
+  }
+  @media screen and (max-width:400px){
+    .flip-card-3D-wrapper{
+  
+      height: 95vh;
+    }
+  }

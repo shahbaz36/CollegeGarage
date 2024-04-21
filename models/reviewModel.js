@@ -1,6 +1,7 @@
 // review / rating / createdAt / ref to item / ref to user
 const mongoose = require('mongoose');
-const Item = require('./itemModel');
+// const Item = require('./itemModel');
+const User = require('./userModel');
 
 const reviewSchema = new mongoose.Schema(
     {
@@ -17,6 +18,7 @@ const reviewSchema = new mongoose.Schema(
             type: Date,
             default: Date.now
         },
+        //Either directly mentioned in body while posting review or comes from url params
         item: {
             type: mongoose.Schema.ObjectId,
             ref: 'Item',
@@ -35,16 +37,21 @@ const reviewSchema = new mongoose.Schema(
 );
 
 reviewSchema.index({ item: 1, user: 1 }, { unique: true });
-
+ 
 reviewSchema.pre(/^find/, function (next) {
     this.populate({
         path: 'user',
         select: 'name photo'
     });
+
     next();
 });
 
 reviewSchema.statics.calcAverageRatings = async function (itemId) {
+
+    //To resolve the circular dependency issue
+    const Item = require('./itemModel');
+
     const stats = await this.aggregate([
         {
             $match: { item: itemId }
@@ -57,15 +64,14 @@ reviewSchema.statics.calcAverageRatings = async function (itemId) {
             }
         }
     ]);
-    // console.log(stats);
 
     if (stats.length > 0) {
-        await item.findByIdAndUpdate(itemId, {
+        await Item.findByIdAndUpdate(itemId, {
             ratingsQuantity: stats[0].nRating,
             ratingsAverage: stats[0].avgRating
         });
     } else {
-        await item.findByIdAndUpdate(itemId, {
+        await Item.findByIdAndUpdate(itemId, {
             ratingsQuantity: 0,
             ratingsAverage: 4.5
         });

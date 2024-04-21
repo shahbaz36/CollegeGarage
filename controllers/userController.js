@@ -31,7 +31,7 @@ exports.resizeUserPhoto = catchAsync(async (req, res, next) => {
         .resize(500, 500)
         .toFormat('jpeg')
         .jpeg({ quality: 90 })
-        .toFile(`public/img/users/${req.file.filename}`);
+        .toFile(`public/images/users/${req.file.filename}`);
 
     next();
 });
@@ -49,6 +49,7 @@ exports.getMe = (req, res, next) => {
     req.params.id = req.user.id;
     next();
 }
+
 exports.updateMe = catchAsync(async (req, res, next) => {
     // 1) Create error if user POSTs password data
     if (req.body.password || req.body.passwordConfirm) {
@@ -62,6 +63,7 @@ exports.updateMe = catchAsync(async (req, res, next) => {
 
     // 2) Filtered out unwanted fields names that are not allowed to be updated
     const filteredBody = filterObj(req.body, 'name', 'email');
+    //If there is a photo in the request, add it to the filteredBody
     if (req.file) filteredBody.photo = req.file.filename;
 
     // 3) Update user document

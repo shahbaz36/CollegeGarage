@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 
 const app = require('./app.js');
 
-//For Heroku
+
 process.on('uncaughtException', err => {
     console.log('UNCAUGHT EXCEPTION! 💥 Shutting down...');
     console.log(err.name, err.message);
@@ -22,10 +22,10 @@ app.listen(port, () => {
     console.log(`App running on port ${port}...`);
 });
 
-//For Heroku
 process.on('unhandledRejection', err => {
     console.log('UNHANDLED REJECTION! 💥 Shutting down...');
-    console.log(err.name, err.message);
+    console.log(err.name);
+    console.log(err.message);
     server.close(() => {
         process.exit(1);
     });
