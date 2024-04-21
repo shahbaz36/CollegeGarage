@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Refurbished Wireless Keyboard",
+    "slug": "refurbished-wireless-keyboard",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 80,
+    "price": 39.99,
+    "priceDiscount": 29.99,
+    "summary": "Get a reliable wireless keyboard at an affordable price.",
+    "description": "Upgrade your typing experience with our refurbished wireless keyboard. It offers the convenience of wireless connectivity and the reliability of a new device at a fraction of the cost.",
+    "imageCover": "https://example.com/images/keyboard-cover.jpg",
+    "images": [
+      "https://example.com/images/keyboard-1.jpg",
+      "https://example.com/images/keyboard-2.jpg"
+    ],
+    "startDates": ["2024-04-01T00:00:00.000Z", "2024-05-01T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Pre-Owned Graphics Tablet",
+    "slug": "pre-owned-graphics-tablet",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 60,
+    "price": 79.99,
+    "priceDiscount": 0,
+    "summary": "Unleash your creativity with a pre-owned graphics tablet.",
+    "description": "Explore your artistic potential with our pre-owned graphics tablet. It offers precision and sensitivity for digital drawing and design projects, perfect for students in creative fields.",
+    "imageCover": "https://example.com/images/graphics-tablet-cover.jpg",
+    "images": [
+      "https://example.com/images/graphics-tablet-1.jpg",
+      "https://example.com/images/graphics-tablet-2.jpg"
+    ],
+    "startDates": ["2024-04-05T00:00:00.000Z", "2024-05-05T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Used Noise-Canceling Headphones",
+    "slug": "used-noise-canceling-headphones",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 50,
+    "price": 99.99,
+    "priceDiscount": 79.99,
+    "summary": "Immerse yourself in your studies with used noise-canceling headphones.",
+    "description": "Block out distractions and focus on your work with our used noise-canceling headphones. Despite being pre-owned, they deliver excellent sound quality and comfort for long study sessions.",
+    "imageCover": "https://example.com/images/headphones-cover.jpg",
+    "images": [
+      "https://example.com/images/headphones-1.jpg",
+      "https://example.com/images/headphones-2.jpg"
+    ],
+    "startDates": ["2024-04-10T00:00:00.000Z", "2024-05-10T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Refurbished Wireless Mouse",
+    "slug": "refurbished-wireless-mouse",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 70,
+    "price": 24.99,
+    "priceDiscount": 19.99,
+    "summary": "Upgrade to a wireless mouse without breaking the bank.",
+    "description": "Experience the convenience of wireless technology with our refurbished wireless mouse. It offers smooth and precise control for your computing needs.",
+    "imageCover": "https://example.com/images/mouse-cover.jpg",
+    "images": [
+      "https://example.com/images/mouse-1.jpg",
+      "https://example.com/images/mouse-2.jpg"
+    ],
+    "startDates": ["2024-04-15T00:00:00.000Z", "2024-05-15T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Pre-Owned Bluetooth Speaker",
+    "slug": "pre-owned-bluetooth-speaker",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 90,
+    "price": 49.99,
+    "priceDiscount": 39.99,
+    "summary": "Enjoy your favorite tunes with a pre-owned Bluetooth speaker.",
+    "description": "Take your music anywhere with our pre-owned Bluetooth speaker. Its compact size and powerful sound make it perfect for parties, study sessions, or outdoor adventures.",
+    "imageCover": "https://example.com/images/speaker-cover.jpg",
+    "images": [
+      "https://example.com/images/speaker-1.jpg",
+      "https://example.com/images/speaker-2.jpg"
+    ],
+    "startDates": ["2024-04-20T00:00:00.000Z", "2024-05-20T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Used Webcam",
+    "slug": "used-webcam",
+    "ratingsAverage": 3.9,
+    "ratingsQuantity": 40,
+    "price": 29.99,
+    "priceDiscount": 0,
+    "summary": "Stay connected with friends and family with a used webcam.",
+    "description": "Keep in touch with loved ones or attend online classes with our used webcam. Despite being pre-owned, it delivers clear video and audio for all your communication needs.",
+    "imageCover": "https://example.com/images/webcam-cover.jpg",
+    "images": [
+      "https://example.com/images/webcam-1.jpg",
+      "https://example.com/images/webcam-2.jpg"
+    ],
+    "startDates": ["2024-04-25T00:00:00.000Z", "2024-05-25T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Refurbished Portable Charger",
+    "slug": "refurbished-portable-charger",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 80,
+    "price": 39.99,
+    "priceDiscount": 29.99,
+    "summary": "Stay powered up on the go with a refurbished portable charger.",
+    "description": "Never run out of battery again with our refurbished portable charger. It's compact, lightweight, and provides fast charging for your smartphone, tablet, or other devices.",
+    "imageCover": "https://example.com/images/portable-charger-cover.jpg",
+    "images": [
+      "https://example.com/images/portable-charger-1.jpg",
+      "https://example.com/images/portable-charger-2.jpg"
+    ],
+    "startDates": ["2024-05-01T00:00:00.000Z", "2024-06-01T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Pre-Owned Laptop Sleeve",
+    "slug": "pre-owned-laptop-sleeve",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 60,
+    "price": 19.99,
+    "priceDiscount": 14.99,
+    "summary": "Protect your laptop with a pre-owned laptop sleeve.",
+    "description": "Keep your laptop safe from scratches and bumps with our pre-owned laptop sleeve. It offers padded protection and a sleek design, perfect for students on the go.",
+    "imageCover": "https://example.com/images/laptop-sleeve-cover.jpg",
+    "images": [
+      "https://example.com/images/laptop-sleeve-1.jpg",
+      "https://example.com/images/laptop-sleeve-2.jpg"
+    ],
+    "startDates": ["2024-05-05T00:00:00.000Z", "2024-06-05T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Used External Monitor",
+    "slug": "used-external-monitor",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 70,
+    "price": 149.99,
+    "priceDiscount": 0,
+    "summary": "Expand your workspace with a used external monitor.",
+    "description": "Increase productivity and multitasking capabilities with our used external monitor. It provides a larger screen area for work or entertainment, enhancing your overall computing experience.",
+    "imageCover": "https://example.com/images/external-monitor-cover.jpg",
+    "images": [
+      "https://example.com/images/external-monitor-1.jpg",
+      "https://example.com/images/external-monitor-2.jpg"
+    ],
+    "startDates": ["2024-05-10T00:00:00.000Z", "2024-06-10T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Refurbished USB Flash Drive",
+    "slug": "refurbished-usb-flash-drive",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 50,
+    "price": 14.99,
+    "priceDiscount": 9.99,
+    "summary": "Store and transfer files with a refurbished USB flash drive.",
+    "description": "Carry your documents, photos, and music wherever you go with our refurbished USB flash drive. It offers reliable storage and fast data transfer speeds in a compact design.",
+    "imageCover": "https://example.com/images/usb-flash-drive-cover.jpg",
+    "images": [
+      "https://example.com/images/usb-flash-drive-1.jpg",
+      "https://example.com/images/usb-flash-drive-2.jpg"
+    ],
+    "startDates": ["2024-05-15T00:00:00.000Z", "2024-06-15T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Pre-Owned Laptop Cooling Pad",
+    "slug": "pre-owned-laptop-cooling-pad",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 40,
+    "price": 19.99,
+    "priceDiscount": 0,
+    "summary": "Keep your laptop cool with a pre-owned laptop cooling pad.",
+    "description": "Prevent overheating and extend the lifespan of your laptop with our pre-owned laptop cooling pad. Its ergonomic design and silent operation make it ideal for long hours of use.",
+    "imageCover": "https://example.com/images/laptop-cooling-pad-cover.jpg",
+    "images": [
+      "https://example.com/images/laptop-cooling-pad-1.jpg",
+      "https://example.com/images/laptop-cooling-pad-2.jpg"
+    ],
+    "startDates": ["2024-05-20T00:00:00.000Z", "2024-06-20T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Used Ergonomic Office Chair",
+    "slug": "used-ergonomic-office-chair",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 80,
+    "price": 149.99,
+    "priceDiscount": 129.99,
+    "summary": "Stay comfortable during long study sessions with a used ergonomic office chair.",
+    "description": "Support your posture and reduce fatigue with our used ergonomic office chair. It features adjustable lumbar support and armrests for customizable comfort.",
+    "imageCover": "https://example.com/images/office-chair-cover.jpg",
+    "images": [
+      "https://example.com/images/office-chair-1.jpg",
+      "https://example.com/images/office-chair-2.jpg"
+    ],
+    "startDates": ["2024-05-25T00:00:00.000Z", "2024-06-25T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Refurbished Wi-Fi Range Extender",
+    "slug": "refurbished-wifi-range-extender",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 90,
+    "price": 49.99,
+    "priceDiscount": 39.99,
+    "summary": "Improve your Wi-Fi coverage with a refurbished Wi-Fi range extender.",
+    "description": "Eliminate Wi-Fi dead zones and enjoy seamless connectivity throughout your home or dorm with our refurbished Wi-Fi range extender. It boosts signal strength and extends network coverage.",
+    "imageCover": "https://example.com/images/wifi-range-extender-cover.jpg",
+    "images": [
+      "https://example.com/images/wifi-range-extender-1.jpg",
+      "https://example.com/images/wifi-range-extender-2.jpg"
+    ],
+    "startDates": ["2024-05-30T00:00:00.000Z", "2024-06-30T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Pre-Owned Wireless Printer",
+    "slug": "pre-owned-wireless-printer",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 100,
+    "price": 99.99,
+    "priceDiscount": 79.99,
+    "summary": "Print documents and assignments hassle-free with a pre-owned wireless printer.",
+    "description": "Experience the convenience of wireless printing with our pre-owned wireless printer. It offers fast and reliable performance for all your printing needs, from documents to photos.",
+    "imageCover": "https://example.com/images/wireless-printer-cover.jpg",
+    "images": [
+      "https://example.com/images/wireless-printer-1.jpg",
+      "https://example.com/images/wireless-printer-2.jpg"
+    ],
+    "startDates": ["2024-06-01T00:00:00.000Z", "2024-07-01T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Used Bluetooth Keyboard",
+    "slug": "used-bluetooth-keyboard",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 80,
+    "price": 34.99,
+    "priceDiscount": 24.99,
+    "summary": "Type comfortably on your computer or tablet with a used Bluetooth keyboard.",
+    "description": "Enhance your typing experience with our used Bluetooth keyboard. Its compact design and wireless connectivity make it perfect for use with laptops, tablets, or smartphones.",
+    "imageCover": "https://example.com/images/bluetooth-keyboard-cover.jpg",
+    "images": [
+      "https://example.com/images/bluetooth-keyboard-1.jpg",
+      "https://example.com/images/bluetooth-keyboard-2.jpg"
+    ],
+    "startDates": ["2024-06-05T00:00:00.000Z", "2024-07-05T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Refurbished Tablet Stand",
+    "slug": "refurbished-tablet-stand",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 70,
+    "price": 19.99,
+    "priceDiscount": 14.99,
+    "summary": "Use your tablet hands-free with a refurbished tablet stand.",
+    "description": "Watch videos, read ebooks, or video chat with ease using our refurbished tablet stand. Its adjustable design and sturdy construction provide stable support for your tablet.",
+    "imageCover": "https://example.com/images/tablet-stand-cover.jpg",
+    "images": [
+      "https://example.com/images/tablet-stand-1.jpg",
+      "https://example.com/images/tablet-stand-2.jpg"
+    ],
+    "startDates": ["2024-06-10T00:00:00.000Z", "2024-07-10T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Pre-Owned USB Microphone",
+    "slug": "pre-owned-usb-microphone",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 90,
+    "price": 49.99,
+    "priceDiscount": 0,
+    "summary": "Record audio with professional-quality sound using a pre-owned USB microphone.",
+    "description": "Capture clear and crisp audio for podcasts, video calls, or music recordings with our pre-owned USB microphone. It's plug-and-play compatible with most devices for hassle-free setup.",
+    "imageCover": "https://example.com/images/usb-microphone-cover.jpg",
+    "images": [
+      "https://example.com/images/usb-microphone-1.jpg",
+      "https://example.com/images/usb-microphone-2.jpg"
+    ],
+    "startDates": ["2024-06-15T00:00:00.000Z", "2024-07-15T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Used Laptop Bag",
+    "slug": "used-laptop-bag",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 80,
+    "price": 29.99,
+    "priceDiscount": 24.99,
+    "summary": "Protect and carry your laptop with a used laptop bag.",
+    "description": "Transport your laptop safely and stylishly with our used laptop bag. It offers padded protection and multiple compartments for your laptop, accessories, and other essentials.",
+    "imageCover": "https://example.com/images/laptop-bag-cover.jpg",
+    "images": [
+      "https://example.com/images/laptop-bag-1.jpg",
+      "https://example.com/images/laptop-bag-2.jpg"
+    ],
+    "startDates": ["2024-06-20T00:00:00.000Z", "2024-07-20T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Refurbished Computer Speakers",
+    "slug": "refurbished-computer-speakers",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 60,
+    "price": 34.99,
+    "priceDiscount": 29.99,
+    "summary": "Enhance your audio experience with refurbished computer speakers.",
+    "description": "Enjoy immersive sound for music, movies, and games with our refurbished computer speakers. They deliver rich audio quality and easy connectivity for your computing setup.",
+    "imageCover": "https://example.com/images/computer-speakers-cover.jpg",
+    "images": [
+      "https://example.com/images/computer-speakers-1.jpg",
+      "https://example.com/images/computer-speakers-2.jpg"
+    ],
+    "startDates": ["2024-06-25T00:00:00.000Z", "2024-07-25T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Used Surge Protector",
+    "slug": "used-surge-protector",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 70,
+    "price": 19.99,
+    "priceDiscount": 0,
+    "summary": "Protect your devices from power surges with a used surge protector.",
+    "description": "Safeguard your electronics and data from power spikes and surges with our used surge protector. It offers multiple outlets and built-in surge suppression for peace of mind.",
+    "imageCover": "https://example.com/images/surge-protector-cover.jpg",
+    "images": [
+      "https://example.com/images/surge-protector-1.jpg",
+      "https://example.com/images/surge-protector-2.jpg"
+    ],
+    "startDates": ["2024-07-01T00:00:00.000Z", "2024-08-01T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Refurbished Wireless Presenter",
+    "slug": "refurbished-wireless-presenter",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 60,
+    "price": 29.99,
+    "priceDiscount": 19.99,
+    "summary": "Deliver presentations with confidence using a refurbished wireless presenter.",
+    "description": "Control your presentations wirelessly and seamlessly with our refurbished wireless presenter. It offers intuitive controls and long-range connectivity for effective presentations.",
+    "imageCover": "https://example.com/images/wireless-presenter-cover.jpg",
+    "images": [
+      "https://example.com/images/wireless-presenter-1.jpg",
+      "https://example.com/images/wireless-presenter-2.jpg"
+    ],
+    "startDates": ["2024-07-05T00:00:00.000Z", "2024-08-05T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Used External DVD Drive",
+    "slug": "used-external-dvd-drive",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 50,
+    "price": 29.99,
+    "priceDiscount": 0,
+    "summary": "Access and back up data from DVDs with a used external DVD drive.",
+    "description": "Read, write, and back up data from CDs and DVDs with our used external DVD drive. It offers plug-and-play compatibility and fast data transfer speeds for convenience.",
+    "imageCover": "https://example.com/images/external-dvd-drive-cover.jpg",
+    "images": [
+      "https://example.com/images/external-dvd-drive-1.jpg",
+      "https://example.com/images/external-dvd-drive-2.jpg"
+    ],
+    "startDates": ["2024-07-10T00:00:00.000Z", "2024-08-10T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Refurbished Wireless Router",
+    "slug": "refurbished-wireless-router",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 70,
+    "price": 59.99,
+    "priceDiscount": 49.99,
+    "summary": "Create a reliable Wi-Fi network with a refurbished wireless router.",
+    "description": "Enjoy fast and reliable internet connectivity with our refurbished wireless router. It offers wide coverage and advanced security features for your home or dorm.",
+    "imageCover": "https://example.com/images/wireless-router-cover.jpg",
+    "images": [
+      "https://example.com/images/wireless-router-1.jpg",
+      "https://example.com/images/wireless-router-2.jpg"
+    ],
+    "startDates": ["2024-07-15T00:00:00.000Z", "2024-08-15T00:00:00.000Z"],
+    "secretitem": false
+  },
+  {
+    "name": "Pre-Owned USB-C Hub",
+    "slug": "pre-owned-usb-c-hub",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 80,
+    "price": 34.99,
+    "priceDiscount": 29.99,
+    "summary": "Expand your device's connectivity with a pre-owned USB-C hub.",
+    "description": "Connect multiple devices to your laptop or tablet with our pre-owned USB-C hub. It offers various ports and seamless compatibility with USB-C-enabled devices.",
+    "imageCover": "https://example.com/images/usb-c-hub-cover.jpg",
+    "images": [
+      "https://example.com/images/usb-c-hub-1.jpg",
+      "https://example.com/images/usb-c-hub-2.jpg"
+    ],
+    "startDates": ["2024-07-20T00:00:00.000Z", "2024-08-20T00:00:00.000Z"],
+    "secretitem": false
+  }
+]

@@ -1,0 +1,575 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+	background: #eeeeee;
+    color: #3e4444;
+}
+.navbar{
+    background-color:#1f6fa9;
+    color: #3e4444;
+    font-size: larger;
+}
+.navbar-brand{
+    margin-left: 5%;
+    font-size: larger;
+}
+
+.navbar-nav{
+    margin-right: 5%;
+}
+h1{
+    color: #fff;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+    color: #fff;
+    font-family: 'Cedarville Cursive', cursive;
+    size: 100%;
+}
+
+#Top-home{
+    text-align: center;
+}
+
+.log-button {
+    text-decoration:none;
+    color: whitesmoke;
+}
+
+.Top-button{
+    margin: 3%;
+}
+
+
+.Top-head{
+    padding: 15% 15%;
+    background-image: linear-gradient(to bottom, #5c626600, rgba(219, 219, 68, 0.5)),url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    
+    background-size: 100% 100%;
+    background-blend-mode: normal;
+}
+
+.card{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    /* height: 350px; */
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.card-body{
+    margin-bottom: 5%;
+}
+
+/* 
+@media screen and (max-width: 600px) {
+    .card{
+        width: 90vw;
+        height: auto;
+    }
+} */
+
+
+/* Sell */
+.sell{
+    padding: 150px;
+}
+
+
+.card .imgBx{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    /*background-color: #dcdde1;*/
+    overflow: hidden;
+} 
+
+.review{
+    box-sizing: border-box;
+	padding: 80px 0px;
+	position: relative;
+	transition-delay: 0s, 0s, 0s, 0s;
+	transition-duration: 0.3s, 0.3s, 0.3s, 0.3s;
+    transition-property: all;
+	transform: translateZ(0), scale(.9);
+	z-index: 1;
+}
+.review h2{
+    color: green;
+    box-sizing: border-box;
+	font-family: Jost, sans-serif;
+    padding: 3% 12%;
+	font-size: 41px;
+	font-weight: 500;
+	line-height: 53.3px;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+
+.inner-content{
+    align-content: flex-start;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 70px 0px 0px;
+	place-content: flex-start normal;
+	position: relative;
+}
+
+.cus-rev{
+    align-content: flex-start;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 70px 0px 0px;
+	place-content: flex-start normal;
+	position: relative;
+}
+
+.quote-icon{
+    box-sizing: border-box;
+}
+
+/*  */
+.card {
+    background-color: #f0f0f0; /* Light background color */
+    margin-bottom: 20px; /* Spacing between cards */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow */
+    /* margin-left: 5%; */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-text {
+    font-size: 14px; /* Adjust font size */
+    color: #333; /* Text color */
+}
+
+.card-text small {
+    color: #666; /* Small text color */
+}
+
+.card-text strong {
+    font-weight: bold; /* Bold text */
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.reviews{
+    margin-left: 1%;
+}
+.rounded-small {
+    margin-top: 7px;
+    margin-left: 15px;
+    border-radius: 50%;
+    width: 50px; /* Adjust according to your preference */
+    height: 50px; /* Adjust according to your preference */
+}
+
+/* footer */
+
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #0a66c2;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 947px){
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
+@media screen and (max-width: 768px){
+    .card{
+        width: calc(100% - 20px);
+        height: auto;
+        font-size: 14px;
+    }
+}
+
+/* About Us section */
+
+.about-us {
+    padding: 32px;
+    background-color: #efedf6;
+
+}
+
+.about-us-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.about-us-title h2 {
+    color: #777585;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.about-us-content {
+    padding: 24px 64px;
+}
+
+.about-us-content p {
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 3% 6%;
+    margin: 0;
+}
+.center-text {
+    text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+
+
+/* Mission Vision Section */
+.card {
+    background: #efedf6;
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 1px solid #efedf6;
+}
+
+.card p {
+    padding-bottom: 15px;
+    
+    font-size: larger;
+}
+
+.card h2 {
+    color: #777585;
+    font-weight: 600;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: -420px;
+    width: 420px;
+    height: 100%;
+    background-color: #f1f1f1;
+    transition: right 0.3s ease;
+    z-index: 999;
+    overflow-y: auto;
+}
+
+#sidebar.open {
+    right: 0;
+}
+
+.cart-container {
+    padding: 20px;
+}
+
+#closeIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #e20303;
+}
+
+#checkoutButton {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#checkoutButton:hover {
+    background-color: #a5afa5;
+    color: black;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-image {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 50%; /* Make the image rounded */
+    margin-right: 10px;
+}
+
+.product-details {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: smaller;
+    color: #666;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.counter button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+  }
+  /* css for form  */
+    #flip-card form .image img{
+      margin-top: 5%;
+      height: 70px;
+    }
+    #flip-card .flip-card-back  {
+      padding: 1.25rem;
+      padding-bottom: 10%;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+      background: #fff;
+      text-align: center;
+      width: 100%;
+    }
+    #flip-card .flip-card-front  {
+      padding: 1.25rem;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+      background: #fff;
+      text-align: center;
+      width: 100%;
+    }
+     /* css for inputs  */
+    .flip-card-back form input{
+      width: 76%;
+      padding: 10px 15px;
+      font-size: 17px;
+      margin: 6px 0;
+      border: none;
+      border-bottom: 1px solid #222222;
+    }
+    .flip-card-back form select{
+      width: 76%;
+      margin-top: 0.5rem;
+      padding: 8px 15px;
+      border: none;
+      border-bottom: 1px solid #222222;
+    }
+    .flip-card-front form select{
+      width: 76%;
+      margin-top: 0.5rem;
+      padding: 8px 15px;
+      border: none;
+      border-bottom: 1px solid #222222;
+    }
+    .flip-card-front  form input {
+      width: 76%;
+      padding: 10px 15px;
+      font-size: 17px;
+      margin: 13px 0;
+      border: none;
+      border-bottom: 1px solid #222222;
+    }
+  #flip-card   .form-btn{
+      border-radius: 5px;
+      background-color: #222222;
+      border: none;
+      width: 76%;
+      padding: 10px 15px;
+      color: #fff;
+      text-align: center;
+    }
+    /* button  */
+    #flip-card  .form-btn:hover{
+      background-color: black;
+    }
+    /* flip part  */
+  html, body
+  {
+      background: #f3efe0;
+  }
+  .flip-card-3D-wrapper {
+    width: 28.5%;
+    height: 72vh;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+  .flip-card-3D-wrapper .flip-card-back,.flip-card-front{
+      width: 100%;
+    -o-perspective: 56.25rem;
+    -webkit-perspective: 56.25rem;
+    -ms-perspective: 56.25rem;
+    perspective: 56.25rem;
+    margin: 0 auto;
+  }
+  #flip-card {
+    text-align: center;
+    margin: 3.125rem auto;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  .do-flip {
+    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+  #flip-card-btn-turn-to-back, #flip-card-btn-turn-to-front {
+    cursor: pointer;
+    visibility: hidden;
+    font-weight: 600;
+    padding: 0;
+  
+  }
+  #flip-card .flip-card-front, #flip-card .flip-card-back{
+    position: absolute;
+    -o-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 2;
+  }
+  #flip-card .flip-card-back {
+      -o-transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+  }
+  #flip-card .flip-card-front p, #flip-card .flip-card-back p {
+    display: block;
+    font-size: 17px;
+  }
+  .formError{
+    font-size:0.75em;
+    margin-top:15px;
+  }
+  /* for mobile devices */
+  @media screen and (max-width:600px) {
+    .flip-card-3D-wrapper{
+      width: 75%;
+      height: 72vh;
+    }
+  }
+  @media screen and (max-width:400px){
+    .flip-card-3D-wrapper{
+  
+      height: 95vh;
+    }
+  }
